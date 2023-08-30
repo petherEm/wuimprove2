@@ -5,29 +5,34 @@ import { ResponsiveFunnel } from "@nivo/funnel";
 
 const data = [
   {
-    id: "step_sent",
-    value: 72405,
-    label: "Sent",
+    id: "cash_intended",
+    value: 18322,
+    label: "Cash Intended",
   },
   {
-    id: "step_viewed",
-    value: 64870,
-    label: "Viewed",
+    id: "sms_sent",
+    value: 10747,
+    label: "SMS sent to Receivers in RO",
   },
   {
-    id: "step_clicked",
-    value: 57534,
-    label: "Clicked",
+    id: "success_sms_sent",
+    value: 9531,
+    label: "Success SMS",
   },
   {
-    id: "step_add_to_card",
-    value: 38163,
-    label: "Add To Card",
+    id: "receiver_clicked",
+    value: 5716,
+    label: "Receiver clicks on SMS",
   },
   {
-    id: "step_purchased",
-    value: 33847,
+    id: "receiver_redirect",
+    value: 287,
     label: "Purchased",
+  },
+  {
+    id: "new_customers",
+    value: 90,
+    label: "New customers",
   },
 ];
 
@@ -207,7 +212,7 @@ const SMSSection = () => {
           <ResponsiveFunnel
             data={data}
             margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
-            valueFormat=">-.4s"
+            valueFormat=">-.2s"
             colors={{ scheme: "orange_red" }}
             borderWidth={20}
             labelColor={{

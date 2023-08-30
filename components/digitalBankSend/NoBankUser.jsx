@@ -171,7 +171,7 @@ const NoBankUser = ({
                     <img src="favicon.png" />
                   </div>
                 </div>
-                <div className="chat-bubble transition-all ease-in duration-300 animate-wiggle hover:animate-bounce">
+                <div className="chat-bubble transition-all ease-in duration-300 animate-wiggle ">
                   Hi {firstName}, Piotr just sent you{" "}
                   <span className="text-white">{fundsInAmount} EUR. </span>
                   Access funds through Western Union multicurrency wallet and

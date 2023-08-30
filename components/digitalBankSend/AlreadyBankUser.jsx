@@ -185,7 +185,7 @@ const AlreadyBankUser = ({
                     <img src="favicon.png" />
                   </div>
                 </div>
-                <div className="chat-bubble hover:animate-bounce">
+                <div className="chat-bubble ">
                   Hi {firstName}, Piotr sent you{" "}
                   <span className="text-white">{fundsInAmount} EUR</span>, your
                   account will be credited shortly.
@@ -197,7 +197,7 @@ const AlreadyBankUser = ({
                     <img src="favicon.png" />
                   </div>
                 </div>
-                <div className="chat-bubble transition-all ease-in duration-300 animate-wiggle hover:animate-bounce">
+                <div className="chat-bubble transition-all ease-in duration-300 animate-wiggle ">
                   Hi {firstName}, your Western Union Digital Bank account has
                   been credited with{" "}
                   <span className="text-white">{fundsInAmount} EUR</span>.
