@@ -327,7 +327,8 @@ const SendMoney = () => {
                   >
                     <Image src="/wumin2.png" width="90" height="90" />
                     <p className="mt-2 text-[12px] font-normal text-center">
-                      Western Union Ecosystem <span className="text-red-400">(coming soon)</span>
+                      Western Union Ecosystem{" "}
+                      <span className="text-red-400">(coming soon)</span>
                     </p>
                   </div>
                 )}
